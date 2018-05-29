@@ -29,6 +29,9 @@
 ## Notes
 + Be sure to edit docker-compose.yml with your repository information.
 + When building if you receive the error:
+
       [Warning] IPv4 forwarding is disabled. Networking will not work.
+      
 ++ You will need IPv4 forwarding, run this command:
+
       sudo sysctl -w net.ipv4.ip_forward=1
