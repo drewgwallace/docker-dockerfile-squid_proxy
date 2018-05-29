@@ -9,8 +9,7 @@
 
 ## Execution
 
-### docker hub
-  https://hub.docker.com/u/drewgwallace/
+### docker hub <br> https://hub.docker.com/u/drewgwallace/
 <pre>
     docker run -p 3128:3128 -dt drewgwallace/squid_proxy:squid_server
 </pre>
