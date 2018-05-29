@@ -19,7 +19,7 @@
     cd docker-squid_proxy
     docker build -t <b>USERNAME/RESPOSITORY</b>:squid_server .
     docker push <b>USERNAME/RESPOSITORY</b>:squid_server
-    <Edit the docker-compose.yml with your repository>
+    <b>(Edit the docker-compose.yml with your repository)</b>
     docker stack deploy -c docker-compose.yml squid_stack --with-registry-auth
 </pre>   
 
