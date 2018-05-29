@@ -8,18 +8,21 @@
 ----
 
 ## Execution
-<pre>
+
 ### docker hub https://hub.docker.com/u/drewgwallace/
+<pre>
     docker run -p 3128:3128 -dt drewgwallace/squid_proxy:squid_server
+</pre>
 ### Build yourself with docker compose
+<pre>
     git clone https://github.com/drewgwallace/docker-squid_proxy.git
     cd docker-squid_proxy
     docker build -t <b>USERNAME/RESPOSITORY</b>:squid_server .
     docker push <b>USERNAME/RESPOSITORY</b>:squid_server
     <Edit the docker-compose.yml with your repository>
     docker stack deploy -c docker-compose.yml squid_stack --with-registry-auth
-    
-</pre>
+</pre>   
+
 
 ----
 
