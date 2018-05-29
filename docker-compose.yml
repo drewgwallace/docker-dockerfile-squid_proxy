@@ -1,0 +1,14 @@
+version: "3"
+services:
+  squid:
+    image: drewgwallace/squid_proxy:squid_server
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+    ports:
+      - "3128:3128"
