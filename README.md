@@ -9,13 +9,13 @@
 
 ## Execution
 
-### docker hub <br> https://hub.docker.com/u/drewgwallace/
+### docker hub <br> https://hub.docker.com/r/drewgwallace/squid_proxy/
 <pre>
     docker run -p 3128:3128 -dt drewgwallace/squid_proxy:latest
 </pre>
 ### Build yourself with docker compose
 <pre>
-    git clone hhttps://hub.docker.com/r/drewgwallace/squid_proxy/
+    git clone https://github.com/drewgwallace/docker-squid_proxy.git
     cd docker-squid_proxy
     docker build -t <b>USERNAME/RESPOSITORY</b>:squid_server .
     docker push <b>USERNAME/RESPOSITORY</b>:squid_server
