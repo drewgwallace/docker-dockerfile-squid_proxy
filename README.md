@@ -1,4 +1,4 @@
-# Ansible Playbook
+# Docker Dockerfile
 
 
 
@@ -11,11 +11,11 @@
 
 ### docker hub <br> https://hub.docker.com/u/drewgwallace/
 <pre>
-    docker run -p 3128:3128 -dt drewgwallace/squid_proxy:squid_server
+    docker run -p 3128:3128 -dt drewgwallace/squid_proxy:latest
 </pre>
 ### Build yourself with docker compose
 <pre>
-    git clone https://github.com/drewgwallace/docker-squid_proxy.git
+    git clone hhttps://hub.docker.com/r/drewgwallace/squid_proxy/
     cd docker-squid_proxy
     docker build -t <b>USERNAME/RESPOSITORY</b>:squid_server .
     docker push <b>USERNAME/RESPOSITORY</b>:squid_server
