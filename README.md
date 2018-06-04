@@ -15,7 +15,7 @@
 </pre>
 ### Build yourself with docker compose
 <pre>
-    git clone https://github.com/drewgwallace/docker-squid_proxy.git
+    git clone https://github.com/drewgwallace/docker-dockerfile-squid_proxy.git
     cd docker-squid_proxy
     docker build -t <b>USERNAME/RESPOSITORY</b>:squid_server .
     docker push <b>USERNAME/RESPOSITORY</b>:squid_server
