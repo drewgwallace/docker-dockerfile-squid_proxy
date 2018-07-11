@@ -9,7 +9,6 @@
 
 ## Execution
 
-### docker hub <br> https://hub.docker.com/r/drewgwallace/squid_proxy/
 <pre>
     docker run -p 3128:3128 -dt drewgwallace/squid_proxy:latest
 </pre>
@@ -23,6 +22,7 @@
     docker stack deploy -c docker-compose.yml squid_stack --with-registry-auth
 </pre>   
 
+### Image on [Docker Hub](https://hub.docker.com/r/drewgwallace/squid_proxy/)
 
 ----
 
