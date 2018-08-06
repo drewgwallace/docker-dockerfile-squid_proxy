@@ -1,7 +1,7 @@
 version: "3"
 services:
   squid:
-    image: drewgwallace/squid_proxy:squid_server
+    image: drewgwallace/squid_proxy:squid_proxy
     deploy:
       replicas: 2
       restart_policy:
